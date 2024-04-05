@@ -84,8 +84,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'HOST': 'localhost',
-        'USER': os.environ.get('USER_DB'),
-        'PASSWORD': os.environ.get('PASSWORD_DB'),
+        'USER': 'sokoladmin',
+        'PASSWORD': '12345',
         'NAME': 'website',
         #'NAME': BASE_DIR / 'db.sqlite3',
     }
