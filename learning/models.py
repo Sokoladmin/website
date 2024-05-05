@@ -11,7 +11,6 @@ class Exam(models.Model):
     start_date = models.DateField(verbose_name='Дата проведения экзамена')
     duration = models.PositiveIntegerField(verbose_name='Продолжительность')
     price = models.PositiveIntegerField(verbose_name='Цена', blank=True)
-    # count_lessons = models.PositiveIntegerField(verbose_name='Количество уроков')
 
     class Meta:
         verbose_name_plural = 'Экзамены'
